@@ -260,7 +260,6 @@ Follow these terminal commands to configure and launch the project on macOS:
 
 ```bash
 # 1. Navigate to the project directory
-cd /Users/veerenkumarkonchada/.gemini/antigravity-ide/scratch/amazon_marketing_optimizer
 
 # 2. Create a clean virtual environment (optional if using Anaconda)
 python3 -m venv .venv
@@ -352,32 +351,8 @@ The application will start and open in your default browser at:
 
 ---
 
-## 16. Publishing to GitHub
 
-To publish this project to GitHub:
-
-```bash
-# 1. Initialize git repository
-cd /Users/veerenkumarkonchada/.gemini/antigravity-ide/scratch/amazon_marketing_optimizer
-git init
-
-# 2. Add files
-git add .
-
-# 3. Create initial commit
-git commit -m "Initial commit: Amazon AI Marketing Budget Optimization Agent"
-
-# 4. Link to your remote GitHub repository
-git remote add origin https://github.com/YOUR_USERNAME/amazon-marketing-budget-optimizer.git
-
-# 5. Push to GitHub
-git branch -M main
-git push -u origin main
-```
-
----
-
-## 17. Limitations & Modeling Assumptions
+## 16. Limitations & Modeling Assumptions
 
 1. **Synthetic Data Calibration:** The default dataset is realistically simulated to reflect e-commerce marketing benchmarks. It does not reflect live internal Amazon Ads data.
 2. **Diminishing Returns Approximation:** The parametric logarithmic response curves model channel saturation well in the absence of randomized holdout testing; however, true causal incremental lift is best measured via controlled geo-experiments or A/B incrementality tests.
